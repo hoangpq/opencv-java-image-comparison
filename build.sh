@@ -1,6 +1,8 @@
-VERSION="4.3.0-openvino-2020.3.0"
-curl -o opencv.tar.gz "https://codeload.github.com/opencv/opencv/tar.gz/$VERSION"
+VERSION="4.3.0"
+URL="https://codeload.github.com/opencv/opencv/tar.gz/$VERSION"
+curl -o opencv.tar.gz $URL
 tar -xvf ./opencv.tar.gz -C ./
+
 cd "opencv-$VERSION"
 mkdir build && cd build
 cmake -D CMAKE_BUILD_TYPE=RELEASE \
