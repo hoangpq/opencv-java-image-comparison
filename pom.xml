@@ -25,6 +25,7 @@
       <artifactId>opencv</artifactId>
       <version>4.3.0-2</version>
     </dependency>
+    <!-- https://mvnrepository.com/artifact/org.opencv/opencv-native -->
     <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>

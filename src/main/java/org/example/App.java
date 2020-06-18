@@ -12,7 +12,8 @@ import org.opencv.imgproc.Imgproc;
  */
 public class App {
     static {
-        System.load("<your shared library path>");
+        nu.pattern.OpenCV.loadShared();
+        System.loadLibrary(Core.NATIVE_LIBRARY_NAME);
     }
 
     private static void templateMatching() {
